@@ -70,9 +70,9 @@ python main_dg.py --config PACS.yaml --target-domain sketch -bp ../ --intra 0.0 
 
 The trained model on PACS dataset can be downloaded in Baidu Yun:
 
-Link: https://pan.baidu.com/s/15qef8IGGHJrIgCwvh0Fntg
+Link: https://pan.baidu.com/s/1n2slY_jf_EJQoIOZqxfCwg
 
-Code: pesb 
+Code: t782
 
 The results on PACS and Office-Home dataset for FedDG task are as follows.
 
