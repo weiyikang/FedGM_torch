@@ -125,4 +125,4 @@ The code borrows heavily from [KD3A](https://github.com/FengHZ/KD3A). Thanks [Fe
 
 ## Acknowledgments
 <!-- The [MindSpore version](https://gitee.com/luckyyk/fedgm) is implemented by [Li deng](https://tjumm.github.io/team/), thanks very much.  -->
-The codes will be released once they are annotated. Please use the [MindSpore version](https://gitee.com/luckyyk/fedgm)
+The codes will be released once they are annotated. This work is supported by the CAAI-Huawei MindSpore Open Fund. Please use the [MindSpore version](https://gitee.com/luckyyk/fedgm)
