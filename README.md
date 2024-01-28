@@ -1,5 +1,5 @@
 # Multi-Source Collaborative Gradient Discrepancy Minimization for Federated Domain Generalization
-Here is the official implementation of the model `MCGDM` in paper ["Multi-Source Collaborative Gradient Discrepancy Minimization for Federated Domain Generalization"]().
+Here is the official implementation of the model `MCGDM` in paper ["Multi-Source Collaborative Gradient Discrepancy Minimization for Federated Domain Generalization, AAAI 2024"](https://arxiv.org/abs/2401.10272).
 
 ## Abstract
 Federated Domain Generalization aims to learn a domain-invariant model from multiple decentralized source domains for deployment on unseen target domain. Due to privacy concerns, the data from different source domains are kept isolated, which poses challenges in bridging the domain gap. To address this issue, we propose a Multi-source Collaborative Gradient Discrepancy Minimization (MCGDM) method for federated domain generalization. Specifically, we propose intra-domain gradient matching between the original images and augmented images to avoid overfitting the domain-specific information within isolated domains. Additionally, we propose inter-domain gradient matching with the collaboration of other domains, which can further reduce the domain shift across decentralized domains. Combining intra-domain and inter-domain gradient matching, our method enables the learned model to generalize well on unseen domains. Furthermore, our method can be extended to the federated domain adaptation task by fine-tuning the target model on the pseudo-labeled target domain. The extensive experiments on federated domain generalization and adaptation indicate that our method outperforms the state-of-the-art methods significantly.
@@ -49,11 +49,7 @@ base_path
 │   │   OfficeCaltech10
 │       │   ...
 ```
-<!-- Our framework now support four multi-source domain adaptation datasets: ```DigitFive, DomainNet, OfficeCaltech10 and Office31```. -->
 
-<!-- * PACS
-
-  The PACS dataset can be accessed in [Google Drive](https://drive.google.com/file/d/1QvC6mDVN25VArmTuSHqgd7Cf9CoiHvVt/view?usp=sharing). -->
 
 ### FedDG
 The configuration files can be found under the folder  `./config`, and we provide four config files with the format `.yaml`. To perform the FedDG on the specific dataset (e.g., PACS), please use the following commands:
@@ -86,7 +82,12 @@ The results on Digits-5 and Office-Caltech10 dataset for FedDA task are as follo
 
 If you find this useful in your work please consider citing:
 ```
-
+@article{wei2024multi,
+  title={Multi-Source Collaborative Gradient Discrepancy Minimization for Federated Domain Generalization},
+  author={Wei, Yikang and Han, Yahong},
+  journal={arXiv preprint arXiv:2401.10272},
+  year={2024}
+}
 ```
 
 And there are some federated multi-source domain adaptation methods proposed by us.
@@ -120,9 +121,5 @@ And there are some federated multi-source domain adaptation methods proposed by 
 }
 ```
 
-<!-- ## Acknowledgments
-The code borrows heavily from [KD3A](https://github.com/FengHZ/KD3A). Thanks [Feng haozhe](https://scholar.google.com/citations?user=kKOuziEAAAAJ&hl=zh-CN) very much. The [MindSpore version](https://gitee.com/luckyyk/fedgm) is implemented by [Li deng](), thanks very much. -->
-
 ## Acknowledgments
-<!-- The [MindSpore version](https://gitee.com/luckyyk/fedgm) is implemented by [Li deng](https://tjumm.github.io/team/), thanks very much.  -->
 The codes will be released once they are annotated. This work is supported by the CAAI-Huawei MindSpore Open Fund. Please use the [MindSpore version](https://gitee.com/luckyyk/fedgm)
