@@ -70,11 +70,11 @@ Link: https://pan.baidu.com/s/1n2slY_jf_EJQoIOZqxfCwg
 
 Code: t782
 
-The results on PACS and Office-Home dataset for FedDG task are as follows.
+The results on PACS and Office-Home dataset for FedDG task are follows.
 
   ![FedDG](./images/feddg_results.png)
 
-The results on Digits-5 and Office-Caltech10 dataset for FedDA task are as follows.
+The results on Digits-5 and Office-Caltech10 dataset for FedDA task are follows.
 
   ![FedDA](./images/fedda_results.png)
 
