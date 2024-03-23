@@ -93,13 +93,13 @@ If you find this useful in your work please consider citing:
 And there are some federated multi-source domain adaptation methods proposed by us.
 ```
 @ARTICLE{wei2022multi,
+  title={Multi-Source Collaborative Contrastive Learning for Decentralized Domain Adaptation}, 
   author={Wei, Yikang and Yang, Liu and Han, Yahong and Hu, Qinghua},
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
-  title={Multi-Source Collaborative Contrastive Learning for Decentralized Domain Adaptation}, 
-  year={2023},
   volume={33},
   number={5},
   pages={2202-2216},
+  year={2023},
   doi={10.1109/TCSVT.2022.3219893}
 }
 
