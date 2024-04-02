@@ -83,11 +83,11 @@ The results on Digits-5 and Office-Caltech10 dataset for FedDA task are follows.
 If you find this useful in your work please consider citing:
 ```
 @article{Wei_Han_2024, 
-  title={Multi-Source Collaborative Gradient Discrepancy Minimization for Federated Domain Generalization}, 
+  title={Multi-Source Collaborative Gradient Discrepancy Minimization for Federated Domain Generalization},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
   author={Wei, Yikang and Han, Yahong}, 
   volume={38}, 
   number={14}, 
-  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
   year={2024}, 
   month={Mar.}, 
   pages={15805-15813},
