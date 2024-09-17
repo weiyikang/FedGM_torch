@@ -130,4 +130,4 @@ And there are some federated multi-source domain adaptation methods proposed by 
 ```
 
 ## Acknowledgments
-The codes will be released once they are annotated. This work is supported by the CAAI-Huawei MindSpore Open Fund. Please use the [MindSpore version](https://gitee.com/luckyyk/fedgm)
+Please refer to train.py for additional details. This work is supported by the CAAI-Huawei MindSpore Open Fund. Please use the [MindSpore version](https://gitee.com/luckyyk/fedgm)
